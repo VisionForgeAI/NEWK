@@ -7,7 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 
 export async function sendWebhook(data: any) {
   try {
-    const response = await fetch('https://hook.eu1.make.com/YOUR_WEBHOOK_HERE', {
+    const response = await fetch('https://hook.eu2.make.com/582dnhpcw6cv721qss1pkx6cakoxbyfk', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

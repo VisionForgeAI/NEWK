@@ -42,7 +42,7 @@ const Navbar = () => {
           >
             <Bot className="h-6 w-6 text-primary" />
             <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/50">
-              VisionForge
+              VisionForge AI Automation
             </span>
           </Link>
 

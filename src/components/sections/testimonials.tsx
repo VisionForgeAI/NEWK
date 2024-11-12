@@ -11,28 +11,26 @@ import { Quote } from 'lucide-react';
 const testimonials = [
   {
     quote:
-      "VisionForge's AI solutions transformed our supply chain efficiency by 40%. Their expertise and innovative approach exceeded our expectations.",
-    author: 'Jennifer Lee',
+      "VisionForge’s automation solutions streamlined our QHSE processes, reducing our administrative workload significantly. Their expertise allowed us to focus on delivering value while maintaining top compliance standards. With VisionForge, we’re now operating more efficiently than ever.",
+    author: 'David Ukeje',
     position: 'COO',
-    company: 'Global Logistics Inc.',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200',
+    company: 'Qesh Standard Limited',
   },
   {
     quote:
-      'The predictive analytics platform they built has become integral to our decision-making process. Outstanding results and professional team.',
-    author: 'Marcus Chen',
-    position: 'CTO',
-    company: 'TechVision Corp',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200',
+      "VisionForge AI Automations has transformed our project efficiency, enabling us to complete builds faster and within budget. Their solutions make scheduling and inventory tracking seamless, saving us time and resources. VisionForge is essential to our project success.",
+    author: 'Prince Ademuyiwa',
+    position: 'CEO',
+    company: 'Sky Express',
   },
-  {
-    quote:
-      'Working with VisionForge has been transformative. Their AI security solutions have strengthened our infrastructure significantly.',
-    author: 'Sarah Williams',
-    position: 'Head of IT',
-    company: 'SecureNet Solutions',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200',
-  },
+
+  // {
+  //   quote:
+  //     'Working with VisionForge has been transformative. Their AI security solutions have strengthened our infrastructure significantly.',
+  //   author: 'Sarah Williams',
+  //   position: 'Head of IT',
+  //   company: 'SecureNet Solutions',
+  // },
 ];
 
 const Testimonials = () => {
@@ -59,11 +57,7 @@ const Testimonials = () => {
                     "{testimonial.quote}"
                   </blockquote>
                   <div className="flex items-center">
-                    <img
-                      src={testimonial.image}
-                      alt={testimonial.author}
-                      className="w-12 h-12 rounded-full object-cover mr-4"
-                    />
+      
                     <div>
                       <div className="font-semibold">{testimonial.author}</div>
                       <div className="text-sm text-muted-foreground">

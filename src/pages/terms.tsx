@@ -56,7 +56,7 @@ const Terms = () => {
           <section className="mb-12">
             <h2 className="text-2xl font-semibold mb-4">7. Governing Law</h2>
             <p>
-              These terms shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of law provisions.
+              These terms shall be governed by and construed in accordance with the laws of Federal Republic of Nigeria, without regard to its conflict of law provisions.
             </p>
           </section>
 
@@ -65,9 +65,11 @@ const Terms = () => {
             <p>
               For any questions regarding these Terms of Service, please contact us at:
               <br />
-              Email: legal@visionforge.ai
+              Email: Dina@visionforgeai.com.ng
               <br />
-              Address: 123 AI Valley, San Francisco, CA 94105
+              Address:  Block 3 Pearly Gate, Lekki
+                      <br />
+                      Lagos,Nigeria
             </p>
           </section>
         </div>

@@ -27,7 +27,7 @@ const LandingHero = () => {
             className="inline-flex items-center justify-center px-4 py-2 mb-8 bg-primary/10 backdrop-blur-sm rounded-full"
           >
             <Bot className="w-5 h-5 mr-2 text-primary" />
-            <span className="text-sm font-medium">AI Solutions for All</span>
+            <span className="text-sm font-medium">AI Shaped for Your Vision</span>
           </motion.div>
 
           {/* Main Headline */}
@@ -66,12 +66,12 @@ const LandingHero = () => {
               className="group text-lg"
               onClick={() => setShowDemoForm(true)}
             >
-              Get Started Free
+             Schedule Demo
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button size="lg" variant="outline" className="text-lg">
+            {/* <Button size="lg" variant="outline" className="text-lg">
               View Pricing
-            </Button>
+            </Button> */}
           </motion.div>
 
           {/* Feature Grid */}
@@ -95,8 +95,8 @@ const LandingHero = () => {
                 <Zap className="w-6 h-6 text-primary" />
               </div>
               <div className="text-left">
-                <div className="font-semibold">Quick Setup</div>
-                <div className="text-sm text-muted-foreground">Ready in minutes</div>
+                <div className="font-semibold">Quick Implementation</div>
+                <div className="text-sm text-muted-foreground">Seamlessly integrated with your operations</div>
               </div>
             </div>
             <div className="flex items-center gap-4 bg-secondary/50 backdrop-blur-sm p-4 rounded-lg">

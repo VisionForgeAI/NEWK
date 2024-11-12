@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Bot, Github, Twitter, Linkedin } from 'lucide-react';
+import { Bot, Github, Twitter, Linkedin, ArrowUp } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -15,14 +15,12 @@ const Footer = () => {
               Transforming businesses through innovative AI solutions and cutting-edge automation.
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com/visionforge-ai" className="text-muted-foreground hover:text-primary">
-                <Github className="h-5 w-5" />
-              </a>
-              <a href="https://twitter.com/visionforge_ai" className="text-muted-foreground hover:text-primary">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="https://linkedin.com/company/visionforge-ai" className="text-muted-foreground hover:text-primary">
+              <a href="https://www.linkedin.com/company/visionforge-ai-automations/?viewAsMember=true" className="text-muted-foreground hover:text-primary">
                 <Linkedin className="h-5 w-5" />
+              </a>
+              {/* Link to the top of the home page */}
+              <a href="#top" className="text-muted-foreground hover:text-primary">
+                <ArrowUp className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -52,13 +50,13 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
               <li className="text-muted-foreground">
-                contact@visionforge.ai
+                dina@visionforgeai.com.ng
               </li>
               <li className="text-muted-foreground">
-                +1 (555) 123-4567
+                +234 8089-455951
               </li>
               <li className="text-muted-foreground">
-                123 AI Valley, San Francisco, CA 94105
+                Block 3 Pearly Gate Lekki, Lagos, Nigeria
               </li>
             </ul>
           </div>

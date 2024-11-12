@@ -35,7 +35,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium mb-1">Email</h4>
                   <p className="text-muted-foreground">
-                    contact@visionforge.ai
+                    dina@visionforgeai.com.ng
                   </p>
                 </div>
               </div>
@@ -43,7 +43,7 @@ const Contact = () => {
                 <Phone className="w-6 h-6 text-primary mr-4 mt-1" />
                 <div>
                   <h4 className="font-medium mb-1">Phone</h4>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">+234 8089-455951</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -51,9 +51,9 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium mb-1">Location</h4>
                   <p className="text-muted-foreground">
-                    123 Innovation Drive
+                    Block 3 Pearly Gate, Lekki
                     <br />
-                    Silicon Valley, CA 94025
+                    Lagos,Nigeria
                   </p>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium mb-1">Weekdays</h4>
                   <p className="text-muted-foreground">
-                    Monday - Friday: 9:00 AM - 6:00 PM PST
+                    Monday - Friday: 9:00 AM - 6:00 PM WAT
                   </p>
                 </div>
                 <div>

@@ -1,6 +1,8 @@
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Bot, Zap, LineChart, Cpu, Network, Shield } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
 
 const ServiceCard = ({ title, description, icon: Icon, features }: {
   title: string;
@@ -29,7 +31,7 @@ const Services = () => {
   const services = [
     {
       title: 'Workflow Automation',
-      description: 'Streamline your business processes with intelligent automation solutions.',
+      description: 'Streamline your operations and boost efficiency with automated workflows tailored to your business needs.',
       icon: Zap,
       features: [
         'Custom workflow design',
@@ -39,60 +41,60 @@ const Services = () => {
       ]
     },
     {
-      title: 'AI Development',
-      description: 'Custom AI solutions tailored to your specific business needs.',
+      title: 'Smart Assistant Development',
+      description: 'Create lasting connections with AI-driven chatbots, voice assistants, and digital agents that resonate with your customers.',
       icon: Bot,
       features: [
-        'Machine learning models',
+        'Custom Chatbot, Voice Assistant ',
         'Natural language processing',
-        'Computer vision systems',
-        'Predictive analytics'
+        'Speech Recognition & Synthesis',
+        'Multi-Channel Integration'
       ]
     },
     {
-      title: 'Data Analytics',
-      description: 'Transform your data into actionable insights.',
+      title: 'Business Consulting',
+      description: 'Unlock the potential of AI to drive your business forward with expert guidance and strategic solutions.',
       icon: LineChart,
       features: [
-        'Data visualization',
-        'Business intelligence',
-        'Performance metrics',
-        'Trend analysis'
+        'AI Strategy Development',
+        'Business Process Optimization',
+        'Implementation Roadmap',
+        'AI Integration Planning'
       ]
     },
-    {
-      title: 'Edge Computing',
-      description: 'Optimize performance with edge computing solutions.',
-      icon: Cpu,
-      features: [
-        'Real-time processing',
-        'Reduced latency',
-        'Distributed computing',
-        'IoT integration'
-      ]
-    },
-    {
-      title: 'Neural Networks',
-      description: 'Advanced neural network solutions for complex problems.',
-      icon: Network,
-      features: [
-        'Deep learning',
-        'Pattern recognition',
-        'Automated decision making',
-        'Scalable architecture'
-      ]
-    },
-    {
-      title: 'Security & Compliance',
-      description: 'Ensure your AI systems are secure and compliant.',
-      icon: Shield,
-      features: [
-        'Data encryption',
-        'Access control',
-        'Audit trails',
-        'Regulatory compliance'
-      ]
-    }
+    // {
+    //   title: 'Edge Computing',
+    //   description: 'Optimize performance with edge computing solutions.',
+    //   icon: Cpu,
+    //   features: [
+    //     'Real-time processing',
+    //     'Reduced latency',
+    //     'Distributed computing',
+    //     'IoT integration'
+    //   ]
+    // },
+    // {
+    //   title: 'Neural Networks',
+    //   description: 'Advanced neural network solutions for complex problems.',
+    //   icon: Network,
+    //   features: [
+    //     'Deep learning',
+    //     'Pattern recognition',
+    //     'Automated decision making',
+    //     'Scalable architecture'
+    //   ]
+    // },
+    // {
+    //   title: 'Security & Compliance',
+    //   description: 'Ensure your AI systems are secure and compliant.',
+    //   icon: Shield,
+    //   features: [
+    //     'Data encryption',
+    //     'Access control',
+    //     'Audit trails',
+    //     'Regulatory compliance'
+    //   ]
+    // }
   ];
 
   return (
@@ -115,10 +117,12 @@ const Services = () => {
         </div>
 
         <div className="text-center mt-16">
-          <Button size="lg" className="text-lg">
-            Get Started
-          </Button>
-        </div>
+  <Link to="/contact">
+    <Button size="lg" className="text-lg">
+      Get Started
+    </Button>
+  </Link>
+</div>
       </div>
     </div>
   );

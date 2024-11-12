@@ -20,7 +20,6 @@ const Privacy = () => {
             <ul className="list-disc pl-6 mb-4">
               <li>Name and contact information</li>
               <li>Company details</li>
-              <li>Login credentials</li>
               <li>Payment information</li>
               <li>Communication preferences</li>
             </ul>
@@ -62,9 +61,11 @@ const Privacy = () => {
             <p>
               If you have questions about this Privacy Policy, please contact us at:
               <br />
-              Email: privacy@visionforge.ai
+              Email: privacy.visionforgeai@gmail.com
               <br />
-              Address: 123 AI Valley, San Francisco, CA 94105
+              Address:  Block 3 Pearly Gate, Lekki
+                      <br />
+                      Lagos,Nigeria
             </p>
           </section>
         </div>

@@ -3,11 +3,11 @@ import { Card } from '@/components/ui/card';
 import { 
   Brain, 
   Cpu, 
-  Network, 
   LineChart, 
   Shield, 
   Zap,
   Bot,
+  RefreshCcw,
   Cloud,
   Database
 } from 'lucide-react';
@@ -16,28 +16,28 @@ const features = [
   {
     icon: Brain,
     title: 'Advanced AI Models',
-    description: 'State-of-the-art machine learning algorithms tailored for enterprise needs'
+    description: 'Cutting-edge algorithms designed to solve complex business challenges'
   },
+  // {
+  //   icon: Cpu,
+  //   title: 'Edge Computing',
+  //   description: 'Process data closer to the source for faster response times'
+  // },
   {
-    icon: Cpu,
-    title: 'Edge Computing',
-    description: 'Process data closer to the source for faster response times'
-  },
-  {
-    icon: Network,
-    title: 'Neural Networks',
-    description: 'Deep learning solutions for complex pattern recognition'
+    icon: RefreshCcw,
+    title: ' Adaptive Intelligence',
+    description: 'Dynamic systems that adapt to your data, enabling smarter analysis and responsive actions.'
   },
   {
     icon: LineChart,
     title: 'Predictive Analytics',
     description: 'Forecast trends and make data-driven decisions'
   },
-  {
-    icon: Shield,
-    title: 'Enterprise Security',
-    description: 'Bank-grade protection for your sensitive data'
-  },
+  // {
+  //   icon: Shield,
+  //   title: 'Enterprise Security',
+  //   description: 'Bank-grade protection for your sensitive data'
+  // },
   {
     icon: Zap,
     title: 'Real-time Processing',
@@ -48,11 +48,11 @@ const features = [
     title: 'Automated Workflows',
     description: 'Streamline operations with intelligent automation'
   },
-  {
-    icon: Cloud,
-    title: 'Cloud Integration',
-    description: 'Seamless integration with major cloud providers'
-  },
+  // {
+  //   icon: Cloud,
+  //   title: 'Cloud Integration',
+  //   description: 'Seamless integration with major cloud providers'
+  // },
   {
     icon: Database,
     title: 'Data Management',

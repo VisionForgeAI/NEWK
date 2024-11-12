@@ -32,6 +32,8 @@ export function ContactForm({ type, open, onOpenChange }: ContactFormProps) {
       email: formData.get('email'),
       company: formData.get('company'),
       message: formData.get('message'),
+      employees: formData.get('employees'), // Adding number of employees
+      servicesInterested: formData.get('servicesInterested'), // Adding services interested
       type: type,
       source: window.location.pathname
     };
@@ -65,11 +67,11 @@ export function ContactForm({ type, open, onOpenChange }: ContactFormProps) {
       <DialogContent className="sm:max-w-[500px]">
         <DialogHeader>
           <DialogTitle>
-            {type === 'demo' ? 'Start Your Free Trial' : 'Get in Touch'}
+            {type === 'demo' ? 'Schedule a Demo' : 'Get in Touch'}
           </DialogTitle>
           <DialogDescription>
             {type === 'demo'
-              ? "Experience the power of AI firsthand. No credit card required."
+              ? "Experience the power of AI firsthand. No commitment required."
               : "Questions? Ideas? We're here to help! Drop us a message below."}
           </DialogDescription>
         </DialogHeader>
@@ -106,6 +108,44 @@ export function ContactForm({ type, open, onOpenChange }: ContactFormProps) {
             />
           </div>
 
+          {/* Number of Employees Field */}
+          <div className="space-y-2">
+  <select
+    id="employees"
+    name="employees"
+    disabled={loading}
+    required
+    className="w-full border border-gray-800 rounded-md p-2 bg-black text-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"
+  >
+    <option value="" disabled selected hidden>Number of Employees</option>
+    <option value="1-10">1-10 employees</option>
+    <option value="11-50">11-50 employees</option>
+    <option value="51-200">51-200 employees</option>
+    <option value="201-500">201-500 employees</option>
+    <option value="501+">501+ employees</option>
+  </select>
+</div>
+
+
+          {/* Services Interested In Field */}
+          <div className="space-y-2">
+          <select
+  id="servicesInterested"
+  name="servicesInterested"
+  disabled={loading}
+  required
+  className="w-full border border-gray-800 rounded-md p-2 bg-black text-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"
+>
+  <option value="" disabled selected hidden>
+    Services Interested In
+  </option>
+  <option value="Workflow Automation">Workflow Automation</option>
+  <option value="Intelligent Automation Solutions">Smart Assistant Development</option>
+  <option value="Business Consulting">Business Consulting</option>
+</select>
+
+          </div>
+
           <div className="space-y-2">
             <Textarea
               id="message"
@@ -120,7 +160,7 @@ export function ContactForm({ type, open, onOpenChange }: ContactFormProps) {
           </div>
 
           <Button type="submit" className="w-full" disabled={loading}>
-            {loading ? 'Sending...' : type === 'demo' ? 'Start Free Trial' : 'Send Message'}
+            {loading ? 'Sending...' : type === 'demo' ? 'Schedule' : 'Send Message'}
           </Button>
 
           <p className="text-xs text-center text-muted-foreground">

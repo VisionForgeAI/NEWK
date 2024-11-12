@@ -12,9 +12,9 @@ const ProcessCard = ({ number, title, description }: { number: string; title: st
 const Process = () => {
   const steps = [
     {
-      number: '01. Subscribe',
-      title: 'Choose Your Plan',
-      description: 'Choose your preferred plan to start and cancel or pause at anytime you like. So you\'re as flexible as your business\' needs.'
+      number: '01.Initial Consultation',
+      title: 'Define Your Vision',
+      description: 'Choose your preferred plan to start, with the flexibility to cancel or pause at any time, ensuring your solutions grow with your business needs.'
     },
     {
       number: '02. Request',

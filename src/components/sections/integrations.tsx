@@ -3,34 +3,34 @@ import { Card } from '@/components/ui/card';
 
 const integrations = [
   {
-    name: 'Salesforce',
-    logo: 'https://www.svgrepo.com/show/303235/salesforce-2-logo.svg',
+    name: 'Hubspot',
+    logo: 'https://www.svgrepo.com/show/331433/hubspot.svg',
     description: 'Enhanced CRM capabilities with AI-powered insights'
   },
   {
-    name: 'SAP',
-    logo: 'https://www.svgrepo.com/show/303264/sap-logo.svg',
-    description: 'Intelligent ERP solutions for enterprise management'
+    name: 'Twilio',
+    logo: 'https://www.svgrepo.com/show/354472/twilio-icon.svg',
+    description: 'Intelligent Communication Solutions'
   },
   {
-    name: 'Microsoft Azure',
-    logo: 'https://www.svgrepo.com/show/303372/azure-1-logo.svg',
-    description: 'Seamless cloud integration and scalability'
+    name: 'Slack',
+    logo: 'https://www.svgrepo.com/show/448248/slack.svg',
+    description: 'Optimized Team Collaboration'
   },
   {
-    name: 'AWS',
-    logo: 'https://www.svgrepo.com/show/303709/amazon-aws-logo.svg',
-    description: 'Robust cloud infrastructure and services'
+    name: 'Monday',
+    logo: 'https://www.svgrepo.com/show/354088/monday-icon.svg',
+    description: 'Efficient Project Management'
   },
   {
-    name: 'Oracle',
-    logo: 'https://www.svgrepo.com/show/303303/oracle-6-logo.svg',
-    description: 'Enterprise database and application integration'
+    name: 'Google Workspace',
+    logo: 'https://www.svgrepo.com/show/382723/google.svg',
+    description: 'Enterprise Data & Application Sync'
   },
   {
-    name: 'Google Cloud',
-    logo: 'https://www.svgrepo.com/show/303380/google-cloud-1-logo.svg',
-    description: 'Advanced cloud AI and machine learning capabilities'
+    name: 'Zendesk',
+    logo: 'https://www.svgrepo.com/show/331269/zendesk.svg',
+    description: 'AI-Enhanced Customer Support'
   }
 ];
 

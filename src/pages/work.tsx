@@ -40,10 +40,10 @@ const CaseStudy = ({
           </div>
         ))}
       </div>
-      <Button variant="outline" className="group/btn">
+      {/* <Button variant="outline" className="group/btn">
         View Case Study
         <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
-      </Button>
+      </Button> */}
     </div>
   </Card>
 );
@@ -51,38 +51,41 @@ const CaseStudy = ({
 const Work = () => {
   const caseStudies = [
     {
-      title: 'AI-Powered Supply Chain Optimization',
-      category: 'Logistics',
-      description: 'Revolutionized supply chain efficiency with predictive AI models.',
-      image: 'https://images.unsplash.com/photo-1566661097872-e95d19f7a288?auto=format&fit=crop&q=80&w=800',
+      title: 'Healthcare Automation',
+      category: 'Healthcare',
+      description: 'Streamlined patient interactions with AI chatbots for scheduling and support, reducing administrative load and improving patient satisfaction.',
+      image: 'https://plus.unsplash.com/premium_photo-1661342488366-56a26535a6c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       results: [
-        '40% reduction in delivery times',
-        '60% improvement in inventory accuracy',
-        '$2M annual cost savings'
+        '30% reduction in administrative load on staff',
+        'Increased patient satisfaction',
+        'Shortened response times for patient inquiries'
       ]
     },
+    
     {
-      title: 'Smart Manufacturing Process',
+      title: 'Manufacturing Process Automation',
       category: 'Manufacturing',
-      description: 'Automated quality control using computer vision and deep learning.',
-      image: 'https://images.unsplash.com/photo-1565962096823-3d2c8bf4b28c?auto=format&fit=crop&q=80&w=800',
+      description: 'Improved production efficiency and minimized downtime by implementing AI-powered inventory and scheduling systems.',
+      image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       results: [
-        '99.9% defect detection rate',
-        '75% reduction in manual inspection',
-        '30% increase in production speed'
+        '20% reduction in production downtime',
+        'Optimized inventory management',
+        'Improved overall production efficiency'
       ]
     },
+    
     {
-      title: 'Financial Risk Assessment',
+      title: 'Financial Services Automation',
       category: 'Finance',
-      description: 'AI-powered risk analysis for investment decision-making.',
-      image: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&q=80&w=800',
+      description: 'Enhanced customer service and reduced operational costs with AI-driven chatbots and automated workflows.',
+      image: 'https://plus.unsplash.com/premium_photo-1682023587356-86065925727a?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       results: [
-        '85% accuracy in risk prediction',
-        '50% faster decision making',
-        '25% increase in portfolio performance'
+        'Improved response times for customer inquiries',
+        'Increased customer satisfaction',
+        'Reduced operational costs by automating repetitive tasks'
       ]
-    }
+    },
+    
   ];
 
   return (

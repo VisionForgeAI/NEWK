@@ -1,25 +1,26 @@
+import React from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
 const caseStudies = [
   {
-    title: 'AI-Driven Supply Chain Optimization',
-    category: 'Logistics',
-    image: 'https://images.unsplash.com/photo-1566661097872-e95d19f7a288?auto=format&fit=crop&q=80&w=800',
-    description: 'Revolutionized supply chain efficiency with predictive AI models.',
+    title: 'Healthcare Automation',
+    category: 'Healthcare',
+    image: 'https://plus.unsplash.com/premium_photo-1661342488366-56a26535a6c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    description: 'AI chatbots streamline patient scheduling and support, cutting administrative tasks.',
   },
   {
-    title: 'Smart Manufacturing Process',
+    title: 'Manufacturing Process Automation',
     category: 'Manufacturing',
-    image: 'https://images.unsplash.com/photo-1565962096823-3d2c8bf4b28c?auto=format&fit=crop&q=80&w=800',
-    description: 'Automated quality control using computer vision and deep learning.',
+    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    description: 'AI optimizes inventory and scheduling, minimizing downtime and improving efficiency.',
   },
   {
-    title: 'Financial Risk Assessment',
+    title: 'Financial Services Automation',
     category: 'Finance',
-    image: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&q=80&w=800',
-    description: 'AI-powered risk analysis for investment decision-making.',
+    image: 'https://plus.unsplash.com/premium_photo-1682023587356-86065925727a?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    description: 'AI-driven chatbots and workflows enhance customer service and reduce costs.',
   },
 ];
 
@@ -57,10 +58,15 @@ const CaseStudies = () => {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{study.title}</h3>
                 <p className="text-muted-foreground mb-4">{study.description}</p>
-                <Button variant="ghost" className="group/btn">
-                  Learn More
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
-                </Button>
+                <a href="/work" className="inline-block">
+                  <Button 
+                    variant="ghost" 
+                    className="group/btn"
+                  >
+                    Learn More
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
+                  </Button>
+                </a>
               </div>
             </Card>
           ))}
