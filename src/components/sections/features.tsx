@@ -2,13 +2,10 @@ import { motion } from 'framer-motion';
 import { Card } from '@/components/ui/card';
 import { 
   Brain, 
-  Cpu, 
-  LineChart, 
-  Shield, 
+  LineChart,
   Zap,
   Bot,
   RefreshCcw,
-  Cloud,
   Database
 } from 'lucide-react';
 

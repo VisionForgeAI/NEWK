@@ -1,6 +1,6 @@
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Bot, Zap, LineChart, Cpu, Network, Shield } from 'lucide-react';
+import { Bot, Zap, LineChart, } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 

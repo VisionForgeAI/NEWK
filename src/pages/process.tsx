@@ -1,4 +1,3 @@
-import { Card } from '@/components/ui/card';
 import { Bot, Zap, Code, LineChart, CheckCircle } from 'lucide-react';
 
 const ProcessStep = ({ 

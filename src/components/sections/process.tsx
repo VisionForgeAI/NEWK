@@ -1,5 +1,4 @@
 import { Card } from '@/components/ui/card';
-import { Bot, Zap, Code, LineChart, CheckCircle } from 'lucide-react';
 
 const ProcessCard = ({ number, title, description }: { number: string; title: string; description: string }) => (
   <Card className="p-6 bg-secondary/50 backdrop-blur border-primary/10 hover:border-primary/20 transition-colors">
